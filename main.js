@@ -22,7 +22,10 @@ function isValidEmail(email) {
   }
 
 }
-
+// if (email.includes('@codeimmersives.com) && email.length >= 20)
+// return (email.endswith('@codeimmersives.com' && email.length >= 20)***
+// return (email.indexOf('@codeimmersives.com') > 0)MINE IS GOOD WOOHOO!!! saying instance starts at greater than 0 because it displays it has more than just @codeimm.com
+// return (email.endsWith('@codeimmersives.com') && !email.startsWith('@codeimmersives.com) === false;
 function isValidPassword(password) { 
   if (password.length >= 8 && password.toUpperCase() !== password && password.toLowerCase() !== password) {
     return true;
@@ -31,6 +34,7 @@ function isValidPassword(password) {
     return false;
   }
 }
+// return above statement instead of IF with above statement
 
 function isRegisteredUser(user) {
   if (user === user1) {
@@ -46,7 +50,8 @@ function isRegisteredUser(user) {
     return false;
   }
 }
-
+// if (user === user 1 || user === user 2 || user === user 3)
+// return user === user 1 || user === user 2 || user === user 3;
 function passwordMatches(name, password) {
   if (name === user1 && password === password1) {
     return true;
@@ -61,8 +66,8 @@ function passwordMatches(name, password) {
     return false;
   }
 }
-
-
+// name === user1 & password === password1 || so on so forth with the rest
+// *** return email === user1 && password === password1 || so on so forth with the rest *** can also line up DOUBLE PIPES To make it prettier
 
 
 // Our code below. Do not touch!
