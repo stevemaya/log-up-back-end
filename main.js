@@ -13,7 +13,55 @@ const password3 = 'like a BOSS';
 
 // **YOUR** code below. Pass those tests!
 
+function isValidEmail(email) {
+  if (email.indexOf('@codeimmersives.com') >= 1) {
+    return true;
+  }
+  else {
+    return false;
+  }
 
+}
+
+function isValidPassword(password) {
+  if (password.length >= 8 && password.toUpperCase() !== password && password.toLowerCase() !== password) 
+  {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+function isRegisteredUser(user) {
+  if (user === user1) {
+    return true;
+  }
+  else if (user === user2) {
+    return true;
+  }
+  else if (user === user3) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+function passwordMatches(name, password) {
+  if(name === user1 && password === password1) {
+    return true;
+  }
+  else if(name === user2 && password == password2) {
+    return true;
+  }
+  else if(name === user3 && password == password3) {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
 
 
 
