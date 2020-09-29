@@ -23,7 +23,7 @@ function isValidEmail(email) {
 
 }
 
-function isValidPassword(password) {
+function isValidPassword(password) { 
   if (password.length >= 8 && password.toUpperCase() !== password && password.toLowerCase() !== password) {
     return true;
   }
