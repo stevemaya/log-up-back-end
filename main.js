@@ -52,10 +52,10 @@ function passwordMatches(name, password) {
   if(name === user1 && password === password1) {
     return true;
   }
-  else if(name === user2 && password == password2) {
+  else if(name === user2 && password === password2) {
     return true;
   }
-  else if(name === user3 && password == password3) {
+  else if(name === user3 && password === password3) {
     return true;
   }
   else {
